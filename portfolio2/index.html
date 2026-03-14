@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>King Hlebela — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">KH<span class="dot">.</span></div>
+    <button class="nav__toggle" id="navToggle" aria-label="menu">
+      <span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#hero" class="nav__link">Home</a></li>
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#experience" class="nav__link">Experience</a></li>
+      <li><a href="#skills" class="nav__link">Stack</a></li>
+      <li><a href="#work" class="nav__link">Projects</a></li>
+      <li><a href="#contact" class="nav__link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-text">KING</div>
+    <div class="hero__content">
+      <div class="hero__tag"><span class="tag-dot"></span> Open to new roles</div>
+      <h1 class="hero__name">
+        <span class="line">King</span>
+        <span class="line accent">Hlebela</span>
+      </h1>
+      <p class="hero__role">Software Engineer <span class="sep">×</span> Full-Stack <span class="sep">×</span> AI Builder</p>
+      <p class="hero__sub">Building production systems at Nedbank via Nagarro — promoted from Intern to Associate Engineer in 5 months. Based in Johannesburg.</p>
+      <div class="hero__cta">
+        <a href="#work" class="btn btn--primary">See My Projects</a>
+        <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero__img-wrap">
+      <div class="hero__img-frame">
+        <img src="img/KingHlebela.jpg" alt="King Hlebela" class="hero__img" onerror="this.style.display='none'; this.parentElement.classList.add('no-img')" />
+        <div class="hero__img-placeholder"><span>K</span></div>
+      </div>
+      <div class="hero__img-badge">
+        <span class="badge-num">5mo</span>
+        <span class="badge-txt">To<br>Promotion</span>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span>Java &nbsp;·&nbsp; Spring Boot &nbsp;·&nbsp; Python &nbsp;·&nbsp; Angular &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; Azure &nbsp;·&nbsp; AWS &nbsp;·&nbsp; Docker &nbsp;·&nbsp; REST API &nbsp;·&nbsp; MySQL &nbsp;·&nbsp; React Native &nbsp;·&nbsp; Flutter &nbsp;·&nbsp; SonarQube &nbsp;·&nbsp; CI/CD &nbsp;·&nbsp; AI &amp; ML &nbsp;·&nbsp;</span>
+      <span>Java &nbsp;·&nbsp; Spring Boot &nbsp;·&nbsp; Python &nbsp;·&nbsp; Angular &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; Azure &nbsp;·&nbsp; AWS &nbsp;·&nbsp; Docker &nbsp;·&nbsp; REST API &nbsp;·&nbsp; MySQL &nbsp;·&nbsp; React Native &nbsp;·&nbsp; Flutter &nbsp;·&nbsp; SonarQube &nbsp;·&nbsp; CI/CD &nbsp;·&nbsp; AI &amp; ML &nbsp;·&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-label">01 — About</div>
+    <div class="about__grid">
+      <div class="about__left">
+        <h2 class="section-title">I ship code<br>that <em>works</em>.</h2>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__num">1.5</span>
+            <span class="stat__label">Years at Nagarro</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">3</span>
+            <span class="stat__label">AI POCs deployed</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">8</span>
+            <span class="stat__label">Certifications</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__right">
+        <p>I'm a Software Engineer based in <strong>Johannesburg</strong> with hands-on experience building production systems across full-stack, backend, and AI platforms. I was promoted from Intern to Associate Software Engineer within <strong>5 months</strong> at Nagarro, working on core banking infrastructure for Nedbank.</p>
+        <p>I've built and deployed 3 AI proof-of-concept applications — a customer chatbot, a multilingual voice assistant, and an internal support copilot — all containerized with Docker and deployed to Microsoft Azure.</p>
+        <p>I graduated from <strong>WeThinkCode_</strong> (one of SA's most selective software engineering programmes) and hold certifications from Microsoft, AWS, and IBM.</p>
+        <div class="about__links">
+          <a href="https://github.com/hlebela9" target="_blank" class="inline-link">GitHub →</a>
+          <a href="https://linkedin.com/in/king-hlebela" target="_blank" class="inline-link">LinkedIn →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <div class="section-label">02 — Experience</div>
+    <h2 class="section-title">Where I've worked</h2>
+
+    <div class="timeline">
+
+      <div class="timeline__item">
+        <div class="timeline__meta">
+          <span class="timeline__date">Jan 2025 – Dec 2025</span>
+          <span class="timeline__company">Nagarro · Nedbank</span>
+        </div>
+        <div class="timeline__body">
+          <h3>Associate Software Engineer</h3>
+          <span class="promo-badge">⬆ Promoted in 5 months</span>
+          <div class="timeline__team">AI Initiative Team</div>
+          <ul>
+            <li>Built <strong>SSK AI Avatar</strong> — a customer guidance chatbot for Nedbank clients</li>
+            <li>Developed frontend &amp; backend for a <strong>voice-based multilingual assistant</strong></li>
+            <li>Built <strong>Support Copilot</strong> — internal knowledge search for bank staff</li>
+            <li>Containerized all apps with Docker and deployed to <strong>Microsoft Azure</strong></li>
+            <li>Fixed bugs across Python &amp; Java codebases; prepared POCs for stakeholder demos</li>
+          </ul>
+          <div class="timeline__team" style="margin-top:1.2rem">Generic Lending Platform (GLP) — Core Banking</div>
+          <ul>
+            <li>Built and maintained REST APIs for loan operations, payments, and collections</li>
+            <li>Wrote unit &amp; integration tests — significantly improved code coverage</li>
+            <li>Developed Angular frontend components from Jira requirements</li>
+            <li>Fixed production bugs in a high-reliability banking environment</li>
+            <li>Cleaned code quality issues using SonarQube in CI/CD pipeline</li>
+          </ul>
+          <div class="timeline__stack">Java · Spring Boot · Python · Angular · TypeScript · Azure · Docker · MySQL · SonarQube · JUnit · Postman · Git</div>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__meta">
+          <span class="timeline__date">Aug – Dec 2024</span>
+          <span class="timeline__company">Nagarro · Nedbank</span>
+        </div>
+        <div class="timeline__body">
+          <h3>Software Developer Intern</h3>
+          <ul>
+            <li>Wrote Java backend code and built REST APIs on the Generic Lending Platform</li>
+            <li>Added unit tests, contributed to improving code coverage</li>
+            <li>Built Angular frontend components, participated in sprint planning &amp; code reviews</li>
+            <li>Promoted to Associate Engineer after 5 months based on delivery and code quality</li>
+          </ul>
+          <div class="timeline__stack">Java · Spring Boot · Angular · TypeScript · MySQL · Git · JUnit</div>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__meta">
+          <span class="timeline__date">Feb – Apr 2024</span>
+          <span class="timeline__company">Oasis Infobyte · Remote</span>
+        </div>
+        <div class="timeline__body">
+          <h3>Android Application Developer Intern</h3>
+          <ul>
+            <li>Built 3 Android apps in Java: unit converter, to-do list, and calculator</li>
+            <li>Gained hands-on experience with Android Studio and mobile dev fundamentals</li>
+          </ul>
+          <div class="timeline__stack">Java · Android Studio</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-label">03 — Stack</div>
+    <h2 class="section-title">What I work with</h2>
+    <div class="skills__grid">
+
+      <div class="skill-card" data-delay="0">
+        <div class="skill-card__icon">☕</div>
+        <h3>Backend</h3>
+        <ul>
+          <li>Java · Spring Boot</li>
+          <li>Python · Flask · Node.js</li>
+          <li>REST APIs · JUnit · Maven</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="100">
+        <div class="skill-card__icon">⚡</div>
+        <h3>Frontend</h3>
+        <ul>
+          <li>Angular · TypeScript</li>
+          <li>React Native</li>
+          <li>HTML · CSS · JavaScript · Bootstrap</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="200">
+        <div class="skill-card__icon">☁️</div>
+        <h3>Cloud &amp; DevOps</h3>
+        <ul>
+          <li>Microsoft Azure</li>
+          <li>AWS Cloud Practitioner</li>
+          <li>Docker · CI/CD · Azure DevOps</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="300">
+        <div class="skill-card__icon">🤖</div>
+        <h3>AI &amp; ML</h3>
+        <ul>
+          <li>Azure AI Solutions</li>
+          <li>RAG Systems</li>
+          <li>LLM integration · Chatbot dev</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="400">
+        <div class="skill-card__icon">🗃️</div>
+        <h3>Database</h3>
+        <ul>
+          <li>MySQL · SQL Server (SSMS)</li>
+          <li>Firebase</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="500">
+        <div class="skill-card__icon">🛠️</div>
+        <h3>Tools &amp; Practices</h3>
+        <ul>
+          <li>Git · SonarQube · Postman</li>
+          <li>Jira · Confluence</li>
+          <li>Agile/Scrum · TDD · Code Reviews</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- CERTS -->
+    <div class="certs">
+      <div class="section-label" style="margin-top:4rem">Certifications</div>
+      <div class="certs__grid">
+        <div class="cert-item">
+          <span class="cert-icon">🏆</span>
+          <div>
+            <div class="cert-name">Develop AI Solutions in Azure</div>
+            <div class="cert-issuer">Microsoft · Nov 2025</div>
+          </div>
+        </div>
+        <div class="cert-item">
+          <span class="cert-icon">🏆</span>
+          <div>
+            <div class="cert-name">AWS Cloud Practitioner Essentials</div>
+            <div class="cert-issuer">Amazon Web Services · Nov 2023</div>
+          </div>
+        </div>
+        <div class="cert-item">
+          <span class="cert-icon">🏆</span>
+          <div>
+            <div class="cert-name">CSX Cybersecurity Fundamentals</div>
+            <div class="cert-issuer">IBM · Nov 2023</div>
+          </div>
+        </div>
+        <div class="cert-item">
+          <span class="cert-icon">🏆</span>
+          <div>
+            <div class="cert-name">Java (Basic) · Python (Basic)</div>
+            <div class="cert-issuer">HackerRank · 2023</div>
+          </div>
+        </div>
+        <div class="cert-item">
+          <span class="cert-icon">🏆</span>
+          <div>
+            <div class="cert-name">Mobile App Development with React Native</div>
+            <div class="cert-issuer">IT Varsity · Dec 2022</div>
+          </div>
+        </div>
+        <div class="cert-item">
+          <span class="cert-icon">🏆</span>
+          <div>
+            <div class="cert-name">CompTIA A+ &amp; Network+</div>
+            <div class="cert-issuer">LinkedIn Learning · 2021–2022</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="work" id="work">
+    <div class="section-label">04 — Projects</div>
+    <h2 class="section-title">Real stuff I've built</h2>
+    <div class="work__grid">
+
+      <div class="work-card work-card--featured">
+        <div class="work-card__num">01</div>
+        <div class="work-card__content">
+          <span class="work-card__tag">Node.js · Express · HTML</span>
+          <h3>OneEleven Assessment</h3>
+          <p>Demo project built with Node.js and Express for the OneEleven tech assessment. Showcases backend fundamentals, routing, and public asset delivery.</p>
+          <a href="https://github.com/hlebela9/oneeleven-task" target="_blank" class="work-card__link">View on GitHub →</a>
+        </div>
+        <div class="work-card__tag-badge">Updated 2 weeks ago</div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-card__num">02</div>
+        <div class="work-card__content">
+          <span class="work-card__tag">Python · AI · RAG</span>
+          <h3>RAG Systems</h3>
+          <p>Retrieval-Augmented Generation system — part of my AI work exploring LLM-powered search and document retrieval pipelines.</p>
+          <a href="https://github.com/hlebela9/RAG-Systems" target="_blank" class="work-card__link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-card__num">03</div>
+        <div class="work-card__content">
+          <span class="work-card__tag">Java · Jupyter Notebook · AI</span>
+          <h3>Complaint Handling System</h3>
+          <p>MVP for COCreate.AI — an AI-powered complaint handling system that classifies and routes customer complaints automatically.</p>
+          <a href="https://github.com/hlebela9/complaint-handling-system" target="_blank" class="work-card__link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-card__num">04</div>
+        <div class="work-card__content">
+          <span class="work-card__tag">TypeScript · Angular</span>
+          <h3>Angular Projects</h3>
+          <p>Angular component library and project work — includes frontend components built during my WeThinkCode_ training and Nagarro work.</p>
+          <a href="https://github.com/hlebela9/Angular" target="_blank" class="work-card__link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-card__num">05</div>
+        <div class="work-card__content">
+          <span class="work-card__tag">Java · Android Studio</span>
+          <h3>Android Project Suite</h3>
+          <p>3 Android apps built in Java: Unit Converter, To-Do App, and Calculator. Built during Oasis Infobyte internship — solid mobile development fundamentals.</p>
+          <a href="https://github.com/hlebela9/AndroidProject" target="_blank" class="work-card__link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-card__num">06</div>
+        <div class="work-card__content">
+          <span class="work-card__tag">Java · WeThinkCode_</span>
+          <h3>AI Code Exercises</h3>
+          <p>Code exercises from the WeThinkCode_ AI course for Software Engineers — covers algorithms, data structures, and AI fundamentals in Java.</p>
+          <a href="https://github.com/hlebela9/ai-code-exercises" target="_blank" class="work-card__link">View on GitHub →</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- AI WORK AT NEDBANK -->
+    <div class="ai-highlight">
+      <div class="ai-highlight__label">🤖 AI Work @ Nedbank (via Nagarro)</div>
+      <div class="ai-highlight__grid">
+        <div class="ai-item">
+          <h4>SSK AI Avatar</h4>
+          <p>Customer guidance chatbot deployed for Nedbank clients. Built frontend + backend components.</p>
+          <span class="ai-stack">Python · Azure · Docker</span>
+        </div>
+        <div class="ai-item">
+          <h4>Multilingual Voice Assistant</h4>
+          <p>Voice-based assistant supporting multiple South African languages for Nedbank.</p>
+          <span class="ai-stack">Python · Azure AI · Docker</span>
+        </div>
+        <div class="ai-item">
+          <h4>Support Copilot</h4>
+          <p>Internal knowledge search tool for Nedbank bank staff — RAG-powered document search.</p>
+          <span class="ai-stack">Python · RAG · Azure · Docker</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="work__cta">
+      <a href="https://github.com/hlebela9" target="_blank" class="btn btn--outline">All Repos on GitHub →</a>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education" id="education">
+    <div class="section-label">05 — Education</div>
+    <h2 class="section-title">Where I learned</h2>
+    <div class="edu__grid">
+      <div class="edu-card">
+        <div class="edu-card__year">2022 – 2023</div>
+        <h3>WeThinkCode_</h3>
+        <p>National Certificate: IT Systems Development — NQF Level 5</p>
+        <span class="edu-card__grade">Grade: 4.08 / 5.0</span>
+        <p class="edu-card__note">Highly selective, tuition-free software engineering programme. Modules: Distributed Systems, Brownfields Development, Mobile Development.</p>
+      </div>
+      <div class="edu-card">
+        <div class="edu-card__year">Dec 2022</div>
+        <h3>IT Varsity — MTN Business App Academy</h3>
+        <p>NQF Level 5 Certificate: Mobile Apps Development with React Native</p>
+      </div>
+      <div class="edu-card">
+        <div class="edu-card__year">Jul 2024</div>
+        <h3>Alison</h3>
+        <p>Diploma in E-Commerce Web Development</p>
+        <span class="edu-card__grade">Score: 88%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-label">06 — Contact</div>
+    <div class="contact__inner">
+      <h2 class="contact__title">Let's build<br>something <em>great</em>.</h2>
+      <p class="contact__sub">Open to backend, full-stack, or AI engineering roles. Based in Johannesburg — remote-friendly.</p>
+      <a href="mailto:Hlebelaking30@gmail.com" class="contact__email">Hlebelaking30@gmail.com</a>
+      <div class="contact__details">
+        <span>📞 +27 64 546 7836</span>
+        <span>📍 Johannesburg, South Africa</span>
+      </div>
+      <div class="contact__socials">
+        <a href="https://github.com/hlebela9" target="_blank" class="social-btn">GitHub</a>
+        <a href="https://linkedin.com/in/king-hlebela" target="_blank" class="social-btn">LinkedIn</a>
+        <a href="https://wa.me/27645467836" target="_blank" class="social-btn">WhatsApp</a>
+        <a href="https://www.instagram.com/hlebela_king/" target="_blank" class="social-btn">Instagram</a>
+        <a href="tel:+27645467836" class="social-btn">Call</a>
+      </div>
+    </div>
+    <div class="contact__bg-text">CONTACT</div>
+  </section>
+
+  <footer class="footer">
+    <span>© 2025 King Hlebela</span>
+    <span>Johannesburg, South Africa 🇿🇦</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
